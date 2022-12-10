@@ -241,7 +241,7 @@ img {
   margin-left: var(--card-set-gap);
   flex-basis: calc(100% / 4 - var(--card-set-gap));
 }
-.strengths .item::before {
+/* .strengths .item::before {
   display: block;
   content: '';
   height: 120px;
@@ -251,7 +251,7 @@ img {
   margin-bottom: 30px;
   background-color: var(--section-light-color);
   border-radius: 4px;
-}
+} */
 
 /* Секція чим ми займаємося */
 .foto {
