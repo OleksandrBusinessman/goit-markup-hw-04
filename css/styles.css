@@ -132,10 +132,11 @@ img {
   margin-left: auto;
 }
 .contacts .item:not(:last-child) {
-  margin-right: 40px;
+  margin-right: 30px;
 }
 .contacts .link {
-  display: block;
+  display: flex;
+  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -149,6 +150,11 @@ img {
 .contacts .link:focus {
   color: var(--turquoise-color);
 }
+.contacts .icon {
+  fill: currentColor;
+  margin-right: 10px;
+}
+
 .header {
   border-bottom: 1px solid #ececec;
 }
@@ -241,17 +247,6 @@ img {
   margin-left: var(--card-set-gap);
   flex-basis: calc(100% / 4 - var(--card-set-gap));
 }
-/* .strengths .item::before {
-  display: block;
-  content: '';
-  height: 120px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-bottom: 30px;
-  background-color: var(--section-light-color);
-  border-radius: 4px;
-} */
 
 /* Секція чим ми займаємося */
 .foto {
