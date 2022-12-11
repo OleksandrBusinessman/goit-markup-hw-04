@@ -345,7 +345,6 @@ img {
   align-items: center;
   width: 44px;
   height: 44px;
-  background-color: var(--white-color);
   border-radius: 50%;
   fill: var(--icon-bgcolor);
 }
@@ -528,20 +527,32 @@ img {
 }
 .social-network .list {
   display: flex;
-  background-color: teal;
+  color: var(--white-color);
 }
 .social-network .item {
   display: flex;
-  justify-content: center;
-  width: 44px;
-  height: 44px;
-  background-color: aquamarine;
   border-radius: 50%;
+
+  background: rgba(255, 255, 255, 0.1);
 }
+
+.social-network .item:not(:last-child) {
+  margin-right: 10px;
+}
+.social-network .item:hover,
+.social-network .item:focus {
+  color: var(--white-color);
+  background-color: var(--turquoise-color);
+}
+
 .social-network .link {
   display: flex;
   align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
 }
-.social-network .item:not(:last-child) {
-  margin-right: 10px;
+
+.social-network .icon {
+  fill: currentColor;
 }
