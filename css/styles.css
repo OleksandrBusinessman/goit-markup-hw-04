@@ -366,31 +366,6 @@ img {
 .card .icon {
   fill: currentColor;
 }
-/* .card-icon {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-} */
-/* .ref-icon {
-  display: flex;
-  align-items: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  fill: var(--icon-bgcolor);
-} */
-/* .ref-icon:hover,
-.ref-icon:focus {
-  background-color: var(--turquoise-color);
-  fill: var(--white-color);
-} */
-/* .ref-icon:not(:last-child) {
-  margin-right: 10px;
-} */
-/* .ref-icon .icon {
-  margin-left: auto;
-  margin-right: auto;
-} */
 
 /* Секція постійні клієнти */
 .section.regular-customers {
