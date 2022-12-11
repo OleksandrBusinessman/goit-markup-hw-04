@@ -16,6 +16,7 @@ font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif; */
 
 :root {
+  --card-set-gap: 30px;
   --main-text-color: #757575;
   --turquoise-color: #2196f3;
   --nav-title-color: #212121;
@@ -25,7 +26,7 @@ font-family: 'Roboto', sans-serif; */
   --dark-color: #2f303a;
   --section-light-color: #f5f4fa;
   --button-active-color: #188ce8;
-  --card-set-gap: 30px;
+  --icon-bgcolor: #afb1b8;
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -323,7 +324,6 @@ img {
 }
 .card {
   padding: 30px;
-
   background-color: var(--white-color);
 }
 .team-team {
@@ -334,6 +334,35 @@ img {
 }
 .our-team {
   background-color: var(--section-light-color);
+}
+.card-icon {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ref-icon {
+  display: flex;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: var(--white-color);
+  border-radius: 50%;
+  fill: var(--icon-bgcolor);
+}
+.ref-icon:hover,
+.ref-icon:focus {
+  background-color: var(--turquoise-color);
+  fill: var(--white-color);
+}
+.ref-icon:not(:last-child) {
+  margin-right: 10px;
+}
+.ref-icon .icon {
+  margin-left: auto;
+  margin-right: auto;
+}
+.item .paragraf {
+  margin-bottom: 16px;
 }
 
 /* Фільтри */
