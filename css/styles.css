@@ -298,7 +298,7 @@ img {
   margin-top: calc(-1 * var(--card-set-gap));
   margin-left: calc(-1 * var(--card-set-gap));
 }
-.team .item {
+.team > .item {
   margin-top: var(--card-set-gap);
   margin-left: var(--card-set-gap);
   flex-basis: calc(100% / 4 - var(--card-set-gap));
@@ -335,34 +335,62 @@ img {
 .our-team {
   background-color: var(--section-light-color);
 }
-.card-icon {
+.item .paragraf {
+  margin-bottom: 16px;
+}
+
+.card .list {
+  display: flex;
+  color: var(--icon-bgcolor);
+}
+.card .item:not(:last-child) {
+  margin-right: 10px;
+}
+.card .item {
+  display: flex;
+  border-radius: 50%;
+}
+.card .link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+.card .link:hover,
+.card .link:focus {
+  color: var(--white-color);
+  background-color: var(--turquoise-color);
+}
+.card .icon {
+  fill: currentColor;
+}
+/* .card-icon {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-}
-.ref-icon {
+} */
+/* .ref-icon {
   display: flex;
   align-items: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
   fill: var(--icon-bgcolor);
-}
-.ref-icon:hover,
+} */
+/* .ref-icon:hover,
 .ref-icon:focus {
   background-color: var(--turquoise-color);
   fill: var(--white-color);
-}
-.ref-icon:not(:last-child) {
+} */
+/* .ref-icon:not(:last-child) {
   margin-right: 10px;
-}
-.ref-icon .icon {
+} */
+/* .ref-icon .icon {
   margin-left: auto;
   margin-right: auto;
-}
-.item .paragraf {
-  margin-bottom: 16px;
-}
+} */
 
 /* Секція постійні клієнти */
 .section.regular-customers {
