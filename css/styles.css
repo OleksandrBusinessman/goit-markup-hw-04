@@ -367,11 +367,11 @@ img {
 
 /* Секція постійні клієнти */
 .section.regular-customers {
-  background-color: tomato;
+  background-color: var(--white-color);
 }
 .regular-customers .container {
   text-align: center;
-  background-color: teal;
+  background-color: var(--white-color);
 }
 .regular-customers .title {
   margin-bottom: 50px;
@@ -387,7 +387,8 @@ img {
   justify-content: center;
   width: 170px;
   height: 92px;
-  background-color: thistle;
+  background-color: var(--white-color);
+  color: var(--icon-bgcolor);
   border: 1px solid var(--icon-bgcolor);
   border-radius: 4px;
 }
@@ -399,7 +400,9 @@ img {
 }
 .regular-customers .item:hover,
 .regular-customers .item:focus {
+  color: var(--turquoise-color);
   border-color: var(--turquoise-color);
+  cursor: pointer;
 }
 
 /* Фільтри */
