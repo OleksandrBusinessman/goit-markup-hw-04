@@ -247,6 +247,28 @@ img {
   margin-left: var(--card-set-gap);
   flex-basis: calc(100% / 4 - var(--card-set-gap));
 }
+.strengths .title::before {
+  display: flex;
+  content: '';
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--section-light-color);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 4px;
+}
+.strengths .antena::before {
+  background-image: url(../images/antenna.png);
+}
+.strengths .clock::before {
+  background-image: url(../images/clock.png);
+}
+.strengths .diagram::before {
+  background-image: url(../images/diagram.png);
+}
+.strengths .astronaut::before {
+  background-image: url(../images/astronaut.png);
+}
 
 /* Секція чим ми займаємося */
 .foto {
