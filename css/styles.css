@@ -517,10 +517,7 @@ img {
 }
 .footer .container {
   display: flex;
-}
-.footer .social-network {
-  padding-top: 12px;
-  padding-bottom: 40px;
+  align-items: baseline;
 }
 .social-network .connect {
   display: block;
