@@ -387,6 +387,9 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 170px;
+  height: 92px;
+
   background-color: var(--white-color);
   color: var(--icon-bgcolor);
 }
