@@ -370,14 +370,9 @@ img {
 }
 .regular-customers .list {
   display: flex;
-  justify-content: center;
 }
 
 .regular-customers .item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
   background-color: var(--white-color);
   color: var(--icon-bgcolor);
 }
@@ -391,6 +386,8 @@ img {
 }
 .regular-customers .link {
   display: flex;
+  align-items: center;
+  justify-content: center;
   width: 170px;
   height: 92px;
   border: 1px solid var(--icon-bgcolor);
